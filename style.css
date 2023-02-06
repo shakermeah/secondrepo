@@ -35,3 +35,34 @@ div#navbar ul li a {
     text-decoration: none;
     color: black;
 }
+.con_descrip {
+    background: #fff4e7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con_descrip>p {
+    width: 500px;
+}
+
+button {}
+
+.con_descrip>button {
+    background: orange;
+    border: 1px solid orange;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    border-radius: 10px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+div#navbar {margin-left: 700px;}
